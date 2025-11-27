@@ -17,6 +17,14 @@ Commands:
   sicap-parser achizitii  Indexeaza achizitiile directe
   sicap-parser licitatii  Indexeaza licitatiile publice
 
+Interfata interactiva:
+
+```bash
+➜  sicap-parser git:(master) ✗ sicap-parser app
+```
+
+Comanda afiseaza un asistent pe terminal care te lasa sa alegi intre licitatii publice sau achizitii directe, sa setezi data, conexiunile simultane, indexul si daca folosesti arhiva istorica. Daca apesi Enter fara sa introduci o valoare, se foloseste cea implicita.
+
 Options:
   --help     Show help                                                 [boolean]
   --version  Show version number                                       [boolean]
